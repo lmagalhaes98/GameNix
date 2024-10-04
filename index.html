@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameNix - Criar e gerenciar partidas</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./image/favicon.svg" type="image/svg+xml">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google fonts link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family
+  =Poppins:wght@400;500;600;700;800;900&display=swap"
+  rel="stylesheet">
+
+  <!--
+    - preload images
+  -->
+</head>
+
+<body>
+  
+  <!--
+    - #HEADER
+  -->
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <div class="countdown-text">
+          Assinatura Exclusiva! Oferta <span class="span skewBg">10</span> Dias
+        </div>
+
+        <div class="social-wrapper">
+
+          <p class="social-title">Siga-nos no :</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="header-bottom skewBg" data-header>
+      <div class="container">
+
+      <a href="#" class="logo">GameNix</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+      <li class="navbar-item">
+        <a href="#home" class="navbar-link skewBg" data-nav-link>Home</a>
+      </li>
+        
+      <li class="navbar-item">
+        <a href="#live" class="navbar-link skewBg" data-nav-link>Live</a>
+        </li>
+
+      <li class="navbar-item">
+        <a href="#features" class="navbar-link skewBg" data-nav-link>Lançamentos</a>
+      </li>
+
+      <li class="navbar-item">
+        <a href="#shop" class="navbar-link skewBg" data-nav-link>Shop</a>
+      </li>
+
+      <li class="navbar-item">
+        <a href="#blog" class="navbar-link skewBg" data-nav-link>Blog</a>
+      </li>
+
+      <li class="navbar-item">
+        <a href="#contact" class="navbar-link skewBg" data-nav-link>Contato</a>
+      </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+      <button class="cart-btn" aria-label="cart">
+        <ion-icon name="cart"></ion-icon>
+
+        <span class="cart-badge">0</span>
+      </button>
+
+      <button class="search-btn" aria-label="open search" data-search-toggler>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="menu"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+      </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!--
+    - #SEARCH  BOX
+  -->
+    
+  <div class="search-container" data-search-box>
+    
+    <div class="input-wrapper">
+      <input type="search" name="search" aria-label="search" placeholder="Search here..." 
+      class="search-field">
+
+      <button class="search-submit" aria-label="submit search" data-search-toggler>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+
+      <button class="search-close" aria-label="close search" data-search-toggler>
+        
+      </button>
+    </div>
+
+  </div>
+
+
+  <main>
+    <article>
+
+  <!--
+    - #HERO
+  -->
+
+      <section class="section hero" id="home" aria-label="home" 
+      style="background-image: url(./assets/bgia29.jpg);">
+      <div class="container">
+
+        <div class="hero-content">
+          <p class="hero-subtitle">Jogos Mundiais</p>
+        
+
+        <h1 class="h1 hero-title">Criar <span class="span">Gerenciar</span> Partidas</h1>
+
+        <p class="hero-text">Encontre jogadores para participar dos campeonatos abaixo: 
+          junte-se com sua equipe existente ou forme um novo time e trilhe o caminho rumo à glória!</p>
+
+          <button class="btn skewBg">Saiba Mais</button>
+        </div>
+
+        <!--        
+        <figure class="hero-banner img-holder" style=" --width: 700; --height: 700;">
+        <img src="./assets/bat15.png" alt="hero banner" width="700" heigh="700" class="w-100">
+        </figure>
+      -->
+
+      </div>
+      </section>
+
+
+  <!--
+    - #BRAND
+  -->
+
+    <section class="section brand" aria-label="brand">
+      <div class="container">
+
+      <ul class="has-scrollbar">
+        <li class="brand-item">
+          <img src="./assets/brand-2.png" width="90" height="90" loading="lazy"alt="">
+        </li>
+
+        <li class="brand-item">
+          <img src="./assets/brand-3.png" width="90" height="90" loading="lazy"alt="">
+        </li>
+
+        <li class="brand-item">
+          <img src="./assets/brand-5.png" width="90" height="90" loading="lazy"alt="">
+        </li>
+
+        <li class="brand-item">
+          <img src="./assets/brand-6.png" width="90" height="90" loading="lazy"alt="">
+        </li>
+
+        <li class="brand-item">
+          <img src="./assets/brand-4.png" width="90" height="90" loading="lazy"alt="">
+        </li>
+
+        <li class="brand-item">
+          <img src="./assets/brand-1.png" width="90" height="90" loading="lazy"alt="">
+        </li>
+      </ul>
+
+      </div>
+    </section>
+
+    <div class="section-wrapper">
+
+  <!--
+    - #LATEST GAME
+  -->
+
+    <section class="section latest-game" aria-label="latest game">
+      <div class="container">
+
+      <p class="section-subtitle">Campeonatos Ativos</p>
+
+        <h2 class="h2 section-title">
+          Criar & <span class="span">Competir</span>
+        </h2>
+
+        <ul class="has-scrollbar">
+
+        <li class="scrollbar-item">
+        <div class="latest-game-card">
+        <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+        <img src="./assets/a1.jpg"width="400" height="470" loading="lazy" alt="Sala um" class="img-cover">
+        </figure>
+
+        <div class="card-content">
+          <a href="#" class="card-badge skewBg">Battle Royale</a>
+
+          <h3 class="h3">
+            <a href="#" class="card-title">CyberBlast <span class="span">Diário</span></a>
+          </h3>
+
+          <p class="card-price">
+            Entrada Livre : <span class="span">Grátis</span>
+          </p>
+
+        </div>
+
+            </div>
+          </li>
+          
+          <li class="scrollbar-item">
+            <div class="latest-game-card">
+            <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+            <img src="./assets/o1.jpg"width="400" height="470" loading="lazy" alt="Sala um" class="img-cover">
+            </figure>
+    
+            <div class="card-content">
+              <a href="#" class="card-badge skewBg">Moba</a>
+    
+              <h3 class="h3">
+                <a href="#" class="card-title">ArenaRift <span class="span">Liga I</span></a>
+              </h3>
+    
+              <p class="card-price">
+                Entrada Livre : <span class="span">R$ 15,00</span>
+              </p>
+    
+            </div>
+    
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="latest-game-card">
+                <figure class="card-banner img-holder" style="--width: 400; --height: 470;">
+                <img src="./assets/p16.jpg"width="400" height="470" loading="lazy" alt="Sala um" class="img-cover">
+                </figure>
+        
+                <div class="card-content">
+                  <a href="#" class="card-badge skewBg">FPS</a>
+        
+                  <h3 class="h3">
+                    <a href="#" class="card-title">FireFront <span class="span">MD1</span></a>
+                  </h3>
+        
+                  <p class="card-price">
+                    Entrada Livre : <span class="span">R$ 20,00</span>
+                  </p>
+        
+                </div>
+        
+                    </div>
+                  </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+  <!--
+    - #LIVE MATCH
+  -->
+
+  <section class="section live-match" id="live" arial-label="live match">
+    <div class="container">
+
+      <h2 class="h2 section-title">
+      ASSISTA À PARTIDA <span class="span">AO VIVO</span>
+      </h2>
+
+      <figure class="live-match-banner img-holder" style="--width: 800; --height: 470;">
+      
+      <img src="./assets/video3.jpg" width="800" height="470" 
+      loading="lazy" alt=" Vídeo da partida ao vivo" 
+      class="img-cover">
+
+      <button class="play-btn" aria-label="play video">
+        <ion-icon name="play"></ion-icon>
+      </button>
+
+      </figure>
+
+      <div class="live-match-player">
+
+      <figure class="player player-1 img-holder" style="--width: 406; --height: 277;">
+      <img src="./assets/EECORMS.png"  width="406" height="277" loading="lazy" 
+      alt="eecorms mearth" class="w-100">
+      </figure>
+
+      <div class="live-match-detail">
+
+        <p class="live-match-subtitle">Próximos jogos ao vivo</p>
+
+        <time class="live-match-time" datetime="19:30">19:30</time>
+
+      </div>
+
+      <figure class="player player-2 img-holder" style="--width: 400 --height: 305;">
+        <img src="./assets/EMPOTALS1.png" width="400" height="305" loading="lazy" 
+        alt="empotals team" class="w-100">
+        </figure>
+
+      </div>
+
+    </div>
+  </section>
+
+    </div>
+
+  <!--
+    - #FEATURED GAME
+  -->
+
+   <section class="section featured-game" id="featured" aria-label="featured game">
+    <div class="container">
+
+    <h2 class="h2 section-title">  
+      Todos os <span class="span">jogos</span> disponíveis  para assinantes 
+    </h2>
+
+    <ul class="has-scrollbar">
+      <li class="scrollbar-item">
+        <div class="featured-game-card">
+          <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+            <img src="./assets/p10.jpg" width="450" height="600" 
+            loadgin="lazy"alt="Alien Odyssey" 
+            class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h3">
+              <a href="#" class="card-title" tabindex="-1">
+                Alien <span class="span">Odyssey</span>
+              </a>
+            </h3>
+
+            <span class="card-meta">
+              <ion-icon name="notifications"></ion-icon>
+              <span class="span">Playstation 5, Xbox, PC</span>
+            </span>
+
+          </div>
+
+          <div class="card-content-overlay">
+            <img src="./assets/featured-game-icon.png" width="36" height="61" 
+            loading="lazy"alt="" 
+            class="card-icon">
+            
+            <h3 class="h3">
+              <a href="#" class="card-title">
+                Apenas para <span class="span">Assinantes</span>
+              </a>
+            </h3>
+
+            <span class="card-meta">
+              <ion-icon name="notifications"></ion-icon>
+              <span class="span">Playstation 5, Xbox, PC</span>
+            </span>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li class="scrollbar-item">
+        <div class="featured-game-card">
+          <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+            <img src="./assets/p1.jpg" width="450" height="600" 
+            loadgin="lazy"alt="Nuclear Nightmare" 
+            class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h3">
+              <a href="#" class="card-title" tabindex="-1">
+                Nuclear <span class="span">Nightmare</span>
+              </a>
+            </h3>
+
+            <span class="card-meta">
+              <ion-icon name="notifications"></ion-icon>
+              <span class="span">Playstation 5, Xbox, PC</span>
+            </span>
+
+          </div>
+
+          <div class="card-content-overlay">
+            <img src="./assets/featured-game-icon.png" width="36" height="61" 
+            loading="lazy"alt="" 
+            class="card-icon">
+            
+            <h3 class="h3">
+              <a href="#" class="card-title">
+                Apenas para <span class="span">Assinantes</span>
+              </a>
+            </h3>
+
+            <span class="card-meta">
+              <ion-icon name="notifications"></ion-icon>
+              <span class="span">Playstation 5, Xbox, PC</span>
+            </span>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li class="scrollbar-item">
+        <div class="featured-game-card">
+          <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+            <img src="./assets/p9.jpg" width="450" height="600" 
+            loadgin="lazy"alt="Soul's Sorrow" 
+            class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h3">
+              <a href="#" class="card-title" tabindex="-1">
+                Soul's <span class="span">Sorrow</span>
+              </a>
+            </h3>
+
+            <span class="card-meta">
+              <ion-icon name="notifications"></ion-icon>
+              <span class="span">Playstation 5, Xbox, PC</span>
+            </span>
+
+          </div>
+
+          <div class="card-content-overlay">
+            <img src="./assets/featured-game-icon.png" width="36" height="61" 
+            loading="lazy"alt="" 
+            class="card-icon">
+            
+            <h3 class="h3">
+              <a href="#" class="card-title">
+                Apenas para <span class="span">Assinantes</span>
+              </a>
+            </h3>
+
+            <span class="card-meta">
+              <ion-icon name="notifications"></ion-icon>
+              <span class="span">Playstation 5, Xbox, PC</span>
+            </span>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li class="scrollbar-item">
+        <div class="featured-game-card">
+          <figure class="card-banner img-holder" style="--width: 450; --height: 600;">
+            <img src="./assets/p11.jpg" width="450" height="600" 
+            loadgin="lazy"alt="Tactical Strike" 
+            class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h3">
+              <a href="#" class="card-title" tabindex="-1">
+                Tactical <span class="span">Strike</span>
+              </a>
+            </h3>
+
+            <span class="card-meta">
+              <ion-icon name="notifications"></ion-icon>
+              <span class="span">Playstation 5, Xbox, PC</span>
+            </span>
+
+          </div>
+
+          <div class="card-content-overlay">
+            <img src="./assets/featured-game-icon.png" width="36" height="61" 
+            loading="lazy"alt="" 
+            class="card-icon">
+            
+            <h3 class="h3">
+              <a href="#" class="card-title">
+                Apenas para <span class="span">Assinantes</span>
+              </a>
+            </h3>
+
+            <span class="card-meta">
+              <ion-icon name="notifications"></ion-icon>
+              <span class="span">Playstation 5, Xbox, PC</span>
+            </span>
+
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+    </div>
+   </section>
+
+
+  <!--
+    - #SHOP
+  -->
+
+  <section class="section shop" id="shop" aria-label="shop" 
+  style="background-image: url(./assets/shop-bg.jpg);">
+  <div class="container">
+
+    <h2 class="h2 section-title">
+    Arsenal do <span class="span">Gamer</span>
+    </h2>
+
+    <p class="section-text">
+      Ganhe pontos ao participar de campeonatos e troque-os por produtos
+      em nossa loja. Quanto mais pontos acumular, mais produtos poderá adquirir. 
+      Participe agora e aproveite os benefícios do nosso sistema de pontos!
+    </p>
+
+    <ul class="has-scrollbar">
+
+     <li class="scrollbar-item">
+      <div class="shop-card">
+        <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+        <img src="./assets/headsetia1.png" width="300" height="260" loadgin="lazy" 
+        alt="headset" class="img-cover">          
+        </figure>
+
+        <div class="card-content">
+          <a href="#" class="card-badge skewBg">Headset</a>
+
+         <h3 class="h3">
+          <a href="#" class="card-title">ApexSound</a>
+         </h3>
+
+         <div class="card-wrapper">
+          <p class="card-price">35.000 Pontos</p>
+
+          <button class="card-btn">
+            <ion-icon name="basket"></ion-icon>
+          </button>
+         </div>
+
+        </div>
+
+      </div>
+     </li> 
+
+     <li class="scrollbar-item">
+      <div class="shop-card">
+        <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+        <img src="./assets/mt1.png" width="300" height="260" loadgin="lazy" 
+        alt="teclado e mouse" class="img-cover">          
+        </figure>
+
+        <div class="card-content">
+          <a href="#" class="card-badge skewBg">Kit Gamer</a>
+
+         <h3 class="h3">
+          <a href="#" class="card-title">ShadowStrike Tech</a>
+         </h3>
+
+         <div class="card-wrapper">
+          <p class="card-price">80.000 Pontos</p>
+
+          <button class="card-btn">
+            <ion-icon name="basket"></ion-icon>
+          </button>
+         </div>
+
+        </div>
+
+      </div>
+     </li> 
+
+     <li class="scrollbar-item">
+      <div class="shop-card">
+        <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+        <img src="./assets/monitorgamer1.png" width="300" height="260" loadgin="lazy" 
+        alt="monitor gamer" class="img-cover">          
+        </figure>
+
+        <div class="card-content">
+          <a href="#" class="card-badge skewBg">Monitor Titan</a>
+
+         <h3 class="h3">
+          <a href="#" class="card-title">TitanScreen Gaming</a>
+         </h3>
+
+         <div class="card-wrapper">
+          <p class="card-price">400.000 Pontos</p>
+
+          <button class="card-btn">
+            <ion-icon name="basket"></ion-icon>
+          </button>
+         </div>
+
+        </div>
+
+      </div>
+     </li> 
+
+     <li class="scrollbar-item">
+      <div class="shop-card">
+        <figure class="card-banner img-holder" style="--width: 300; --height: 260;">
+        <img src="./assets/pcgamer3ia.png" width="300" height="260" loadgin="lazy" 
+        alt="monitor gamer" class="img-cover">          
+        </figure>
+
+        <div class="card-content">
+          <a href="#" class="card-badge skewBg">PC GAMER</a>
+
+         <h3 class="h3">
+          <a href="#" class="card-title">QuantumForce PC</a>
+         </h3>
+
+         <div class="card-wrapper">
+          <p class="card-price">900.000 Pontos</p>
+
+          <button class="card-btn">
+            <ion-icon name="basket"></ion-icon>
+          </button>
+         </div>
+
+        </div>
+
+      </div>
+     </li> 
+
+    </ul>
+
+  </div>
+  </section>
+
+  <!--
+    -#BLOG
+  -->
+
+    <section class="section blog" id="blog" aria-label="blog">
+      <div class="container">
+
+       <h2 class="h2 section-title">
+        Últimas notícias e <span class="span">Novidades</span>
+        </h2>
+      
+       <p class="section-text">
+        As últimas novidades dos games incluem o lançamento do 
+        "CyberStrike Revolution", atualizações emocionantes no 
+        "Mythical Adventure Online" A revelação dos novos óculos de realidade 
+        virtual para gamers, o "VirtualXperience", também está movimentando o cenário.
+        </p>
+
+        <ul class="blog-list">
+
+        <li>
+          <div class="blog-card">
+            <figure class="card-banner img-holder"  style="--width: 400; --height: 290;">
+              <img src="./assets/cyberstrike.jpg" widht="400" height="290" loading="lazy"
+              alt="CyberStrike Revolution" class="img-cover">
+            </figure>
+
+           <div class="card-content">
+            <ul class="card-meta-list">
+             
+              <li class="card-meta-item">
+               <ion-icon name="person-outline"></ion-icon>
+              <a href="#" class="item-text">Admin</a>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon name="calendar-outline"></ion-icon>
+               <time datetime="26-03-2024" class="item-text">26 de março, 2024</time>
+               </li>
+            </ul>
+
+            <h3>
+              <a href="#" class="card-title">CyberStrike Revolution</a>
+            </h3>
+
+            <p class="card-text">
+              Em CyberStrike Revolution, mergulhe em um mundo futurista onde você 
+              molda seu próprio ambiente virtual para partidas e campeonatos. 
+              Explore um vasto mundo aberto, visite os ambientes de outros jogadores 
+              e junte-se a eles em partidas emocionantes, utilizando máquinas 
+              disponíveis para uma experiência de jogo única e imersiva.
+            </p>
+
+            <a href="#" class="card-link">
+              <span class="span">Saiba Mais</span>
+              <ion-icon name="caret-forward"></ion-icon>
+            </a>
+           </div>
+
+          </div>
+        </li>
+
+
+        <li>
+          <div class="blog-card">
+            <figure class="card-banner img-holder"  style="--width: 400; --height: 290;">
+              <img src="./assets/mythical.jpg" widht="400" height="290" loading="lazy"
+              alt="Mythical Adventure Online" class="img-cover">
+            </figure>
+
+           <div class="card-content">
+            <ul class="card-meta-list">
+             
+              <li class="card-meta-item">
+               <ion-icon name="person-outline"></ion-icon>
+              <a href="#" class="item-text">Admin</a>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon name="calendar-outline"></ion-icon>
+               <time datetime="26-03-2024" class="item-text">26 de março, 2024</time>
+               </li>
+            </ul>
+
+            <h3>
+              <a href="#" class="card-title">Mythical Adventure Online</a>
+            </h3>
+
+            <p class="card-text">
+
+              Em Mythical Adventure Online, recebemos novas atualizações emocionantes. 
+              Agora, os jogadores poderão criar clãs e explorar o vasto mundo aberto, 
+              onde cada escolha é única e repleta de desafios. Além disso, a mecânica 
+              de perda de itens em território inimigo adiciona uma nova camada de estratégia,
+             incentivando alianças e guerras territoriais épicas.</p>
+
+            <a href="#" class="card-link">
+              <span class="span">Saiba Mais</span>
+              <ion-icon name="caret-forward"></ion-icon>
+            </a>
+           </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="blog-card">
+            <figure class="card-banner img-holder"  style="--width: 400; --height: 290;">
+              <img src="./assets/vr5.PNG" widht="400" height="290" loading="lazy"
+              alt="VirtualXperience" class="img-cover">
+            </figure>
+
+           <div class="card-content">
+            <ul class="card-meta-list">
+             
+              <li class="card-meta-item">
+               <ion-icon name="person-outline"></ion-icon>
+              <a href="#" class="item-text">Admin</a>
+              </li>
+
+              <li class="card-meta-item">
+                <ion-icon name="calendar-outline"></ion-icon>
+               <time datetime="26-03-2024" class="item-text">26 de março, 2024</time>
+               </li>
+            </ul>
+
+            <h3>
+              <a href="#" class="card-title">VirtualXperience</a>
+            </h3>
+
+            <p class="card-text">
+              Com o VirtualXperience, mergulhe em uma nova dimensão de jogabilidade. 
+              Este revolucionário óculos de realidade virtual conecta-se diretamente 
+              ao seu cérebro, proporcionando uma experiência imersiva sem precedentes. 
+              Você será transportado para dentro do jogo, vivenciando cada momento como 
+              se estivesse lá. Bem-vindo ao futuro do gaming. Ultrapasse os limites da sua imaginação.
+            </p>
+
+            <a href="#" class="card-link">
+              <span class="span">Saiba Mais</span>
+              <ion-icon name="caret-forward"></ion-icon>
+            </a>
+           </div>
+
+          </div>
+        </li>
+        </ul>
+
+      </div>
+    </section> 
+
+  <!--
+    - #NEWSLETTER
+  -->
+
+  <section class="newsletter" aria-label="newsletter">
+    <div class="container">
+
+      <div class="newsletter-card">
+
+        <h2 class="h2">
+          Receba <span class="span">Novidades</span>
+        </h2>
+
+        <form action="" class="newsletter-form">
+
+          <div class="input-wrapper skewBg">
+            <input type="email" name="email_address" aria-label="email" placeholder="Digite seu e-mail..." required
+              class="email-field">
+
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
+
+          <button type="submit" class="btn newsletter-btn skewBg">
+            <span class="span">Receber</span>
+
+            <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+    </article>
+  </main>
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+  <div class="footer-top">
+    <div class="container">
+      
+    <div class="footer-brand">
+      <a href="#" class="logo">GameNix</a>
+
+      <p class="footer-text">
+        GameNix oferece oportunidades para aqueles que desejam competir.
+      </p>
+
+      <ul class="contac-list">
+        <li class="contact-item">
+
+        <div class="contact-icon">
+          <ion-icon name="location"></ion-icon>
+        </div>
+          
+        <andress class="item-text">
+          Rua das Violetas, 234 Jardim das Américas São Paulo - SP
+        </andress>
+        </li>
+
+        <li class="contact-item">
+
+          <div class="contact-icon">
+            <ion-icon name="headset"></ion-icon>
+          </div>
+            
+          <a href="Telefone:(11)98765432"class="item-text">Telefone: (11) 9876-5432</a>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="contact-icon">
+              <ion-icon name="mail-open"></ion-icon>
+            </div>
+              
+            <a href="mailto:gamenix@example.com"class="item-text">gamenix@example.com</a>
+            </li>
+      </ul>
+
+    </div>
+
+    <ul class="footer-list">
+      <li>
+        <p class="footer-list-title">
+          Produtos
+        </p>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Campeonatos</a>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Streaming</a>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Games</a>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Arsenal</a>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Novidades</a>
+      </li>
+    </ul>
+
+    <ul class="footer-list">
+      <li>
+        <p class="footer-list-title">
+          PRECISA DE AJUDA?
+        </p>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Termos & Condições</a>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Política de Privacidade</a>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Política de Reembolso</a>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Afiliada</a>
+      </li>
+
+      <li>
+        <a href="" class="footer-link">Casos de Uso</a>
+      </li>
+    </ul>
+
+    <div class="footer-wrapper">
+
+    <div class="social-wrapper">
+
+    <p class="footer-list-title">Siga-nos</p>
+
+    <ul class="social-list">
+
+    <li>
+      <a href="#" class="social-link" style="background-color: #3b5998">
+        <ion-icon name="logo-facebook"></ion-icon>
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="social-link" style="background-color: #55acee">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="social-link" style="background-color: #d71e18">
+        <ion-icon name="logo-pinterest"></ion-icon>
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="social-link" style="background-color: #1565c0">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+    </li>
+
+    </ul>
+
+    </div>
+
+    <div class="footer-newsletter">
+      <p class="footer-list-title">NOTÍCIAS E NOVIDADES</p>
+    
+    <form action="" class="footer-newsletter">
+      <input type="email" name="email_address" aria-label="email" placeholder="Digite seu e-mail" 
+     required class="email-field">
+
+    <button type="submit" class="footer-btn" aria-label="submit">
+      <ion-icon name="rocket"></ion-icon>
+    </button>
+
+    </form>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="footer-bottom">
+    <div class="container">
+
+    <p class="copyright"> &copy; 2024 <a href="#" class="copyright-link">GameNix.</a>  
+      All Right Reserved
+    </p>
+
+    <img src="./assets/footer-bottom-img.png" width="340" height="21" loadgin="lazy" alt="" 
+    class="footer-bottom-img">
+
+    </div>
+  </div>
+
+  </footer>
+
+  <!--
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up"></ion-icon>
+  </a>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
